@@ -92,7 +92,10 @@ extra (containing a `String` with an error message). For example:
 In the case where you get an error message via `EXTRA_ERROR`, there
 will also be an extra named `EXTRA_LASTKNOWN`, containing the results
 of `getLastKnownLocation()` for your selected provider. This may be
-`null` &mdash; if not, it will be a `Location` object.
+`null` &mdash; if not, it will be a `Location` object. There may also
+be `EXTRA_ERROR_PROVIDER_DISABLED`, with a boolean indicating if the
+provider in question was disabled (thereby preventing getting any
+readings).
 
 Dependencies
 ------------
@@ -100,7 +103,7 @@ This project has no dependencies.
 
 Version
 -------
-This is version 0.2.2 of this module, meaning it is even less new than before.
+This is version 0.2.3 of this module, meaning it is even less new than before.
 
 Demo
 ----
@@ -131,6 +134,7 @@ Do not ask for help via Twitter.
 
 Release Notes
 -------------
+- v0.2.3: merged pull request that added `EXTRA_ERROR_PROVIDER_DISABLED`
 - v0.2.2: added defense against emulator issue
 - v0.2.1: added more protection against under-locked `WakeLock`s
 - v0.2.0: added `EXTRA_LASTKNOWN` support
