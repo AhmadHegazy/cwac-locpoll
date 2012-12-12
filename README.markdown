@@ -15,7 +15,7 @@ and it will handle all of the location work from there, sending
 you the results via a broadcast `Intent`. Your `BroadcastReceiver`
 can then use the location data as needed.
 
-This is available as a JAR file from the downloads area of this GitHub repo.
+This is [available as a JAR file](https://github.com/commonsguy/downloads).
 The project itself is set up as an Android library project,
 in case you wish to use the source code in that fashion.
 
