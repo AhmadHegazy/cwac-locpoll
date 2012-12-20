@@ -101,6 +101,10 @@ Dependencies
 ------------
 This project has no dependencies.
 
+This project should work on API Level 7 and higher, except for any portions that
+may be noted otherwise in this document. Please report bugs if you find features
+that do not work on API Level 7 and are not noted as requiring a higher version.
+
 Version
 -------
 This is version 0.2.3 of this module, meaning it is even less new than before.
