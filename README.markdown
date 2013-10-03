@@ -1,6 +1,8 @@
 CWAC LocationPoller: Asking "Where Am I?" Over and Over Again
 =============================================================
 
+**THIS PROJECT IS DISCONTINUED — USE AT YOUR OWN RISK**
+
 Some applications wish to know where the device is at on a
 periodic basis, whether the device is awake or asleep. This
 is a bit challenging, since you have to keep the device awake
